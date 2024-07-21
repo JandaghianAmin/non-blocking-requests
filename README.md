@@ -8,7 +8,7 @@ uvicorn APIServer:app --reload
 
 and run each request file:
 ```
-python .\blocking.p
+python .\blocking.py
 python .\threads.py
 python .\asyncio.py 
 ```
